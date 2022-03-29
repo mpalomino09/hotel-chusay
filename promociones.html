@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hotel Ch'usay</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<section class="sub-header-promociones">
+		<nav>
+			<a href="index.html"><img src="img/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="elhotel.html">EL HOTEL</a></li>
+					<li><a href="habitaciones.html">HABITACIONES</a></li>
+					<li><a href="promociones.html">PROMOCIONES</a></li>
+					<li><a href="restaurantes.html">RESTAURANTES</a></li>
+					<li><a href="">TURISMO</a></li>
+					<li><a href="">CONTACTO</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>Promociones</h1>
+	</section>
+
+	<script type="text/javascript">
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	</script>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+
+
+
+	<footer>
+            <div class="container-footer-all">
+                <div class="container-body">
+                    <div class="colum-1">
+                        <h1>Mas imformacion del Hotel</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+
+                    <div class="colum-2">
+                        <h1>Redes Sociales</h1>
+                        <div class="row">
+                            <img src="img/facebook.png">
+                            <label>Siguenos en Facebook</label>
+                        </div>
+
+                        <div class="row">
+                            <img src="img/twitter.png">
+                            <label>Siguenos en Twitter</label>
+                        </div>
+
+                        <div class="row">
+                            <img src="img/instagram.png">
+                            <label>Siguenos en Instagram</label>
+                        </div>
+
+                        <div class="row">
+                            <img src="img/google-plus.png">
+                            <label>Siguenos en Google Plus</label>
+                        </div>
+
+                        <div class="row">
+                            <img src="img/pinterest.png">
+                            <label>Siguenos en Pinterest</label>
+                        </div>
+                    </div>
+
+                    <div class="colum-3">
+                        <h1>Imformacion Contactos</h1>
+                        <div class="row2">
+                            <img src="">
+                            <label>Machu Pichu, Cusco
+                                Caminos del Inca</label>
+                        </div>
+
+                        <div class="row2">
+                            <img src="">
+                            <label>+51 987 654 321</label>
+                        </div>
+
+                        <div class="row2">
+                            <img src="">
+                            <label>hoteleriachusay@gmail.com</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-footer">
+                <div class="footer">
+                    <div class="copyright">
+                        © 2022 Todos los derechos reservados |
+                        <a href="#">Ch'usay</a>
+                    </div>
+
+                    <div class="info">
+                        <a href="#">Informacion Compañia</a> |
+                        <a href="#">Privacidad y politica</a> |
+                        <a href="#">Terminos y Condiciones</a> 
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
